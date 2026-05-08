@@ -6,7 +6,7 @@ import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import Login from './pages/Login';
 import Checkout from './pages/Checkout';
-import Seller from './pages/seller';
+import Seller from './pages/Seller';
 import CustomerCare from './pages/CustomerCare';
 import GiftCards from './pages/GiftCards';
 function App() {

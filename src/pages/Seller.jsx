@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./seller.css";
+import "./Seller.css";
 
 const steps = ["Account Info", "Business Details", "Documents & IDs", "Bank & Payout", "Review"];
 
