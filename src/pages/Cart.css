@@ -1,0 +1,141 @@
+.cart-page {
+  padding: 40px 0;
+  background-color: #eaeded;
+  min-height: 100vh;
+}
+
+.cart-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.cart-main {
+  flex: 1;
+  background: var(--bg-surface);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.cart-main h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+}
+
+.cart-header {
+  text-align: right;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.item-image-wrapper {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.item-image {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #007185;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.item-title:hover {
+  color: #C7511F;
+  text-decoration: underline;
+}
+
+.item-stock {
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-select {
+  padding: 5px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: #F0F2F2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.separator {
+  color: #ddd;
+}
+
+.delete-btn {
+  color: #007185;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  text-decoration: underline;
+}
+
+.item-price {
+  font-size: 1.2rem;
+  width: 100px;
+  text-align: right;
+}
+
+.cart-subtotal {
+  text-align: right;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+.cart-sidebar {
+  width: 300px;
+}
+
+.checkout-card {
+  padding: 20px;
+}
+
+.free-shipping-msg {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
+.checkout-subtotal {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.proceed-btn {
+  width: 100%;
+  border-radius: var(--radius-xl);
+  font-size: 1rem;
+  padding: 12px;
+}
