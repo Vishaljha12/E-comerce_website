@@ -6,11 +6,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import './Home.css';
 
 const CAROUSEL_IMAGES = [
-  "https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg",
-  "https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg",
-  "https://m.media-amazon.com/images/I/71U-Q+N7PXL._SX3000_.jpg",
-  "https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg",
-  "https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg"
+  "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=3000&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1607082349566-187342175e2f?q=80&w=3000&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=3000&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1607083206968-13611e3d76db?q=80&w=3000&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=3000&auto=format&fit=crop"
 ];
 
 export default function Home() {
