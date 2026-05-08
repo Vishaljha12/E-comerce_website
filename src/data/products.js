@@ -6,7 +6,7 @@ export const products = [
     price: 4499,
     rating: 4.7,
     reviews: 12453,
-    image: 'https://m.media-amazon.com/images/I/71CjO5GU7GL._AC_SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1543512214-318c7553f230?w=500&q=80',
     category: 'Electronics',
     description: 'Our best-sounding Echo Dot yet.'
   },
@@ -16,7 +16,7 @@ export const products = [
     price: 29990,
     rating: 4.6,
     reviews: 8432,
-    image: 'https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500&q=80',
     category: 'Electronics',
     description: 'Industry-leading noise cancellation optimized to you.'
   },
@@ -26,7 +26,7 @@ export const products = [
     price: 139999,
     rating: 4.8,
     reviews: 1244,
-    image: 'https://m.media-amazon.com/images/I/71CXhVhpM0L._SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500&q=80',
     category: 'Electronics',
     description: 'Meet the new Galaxy S24 Ultra with Galaxy AI.'
   },
@@ -36,7 +36,7 @@ export const products = [
     price: 3499,
     rating: 4.2,
     reviews: 4531,
-    image: 'https://m.media-amazon.com/images/I/71wLpWf2cHL._SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&q=80',
     category: 'Electronics',
     description: 'Powerful 14W RGB Bluetooth Speaker.'
   },
@@ -47,7 +47,7 @@ export const products = [
     price: 84900,
     rating: 4.8,
     reviews: 21004,
-    image: 'https://m.media-amazon.com/images/I/71jG+e7roXL._AC_SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80',
     category: 'Computers',
     description: 'All-Day Battery Life – Go longer than ever with up to 18 hours.'
   },
@@ -57,7 +57,7 @@ export const products = [
     price: 8995,
     rating: 4.7,
     reviews: 5432,
-    image: 'https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&q=80',
     category: 'Computers',
     description: 'Any-surface tracking - now 8K DPI.'
   },
@@ -67,7 +67,7 @@ export const products = [
     price: 125000,
     rating: 4.5,
     reviews: 4321,
-    image: 'https://m.media-amazon.com/images/I/61SQz8S+fEL._AC_SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&q=80',
     category: 'Computers',
     description: 'Unmatched immersion: Get your head in the game.'
   },
@@ -77,7 +77,7 @@ export const products = [
     price: 154990,
     rating: 4.6,
     reviews: 512,
-    image: 'https://m.media-amazon.com/images/I/71aK42O+e1L._SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=500&q=80',
     category: 'Computers',
     description: 'NVIDIA GeForce RTX 4060, Intel Core i7.'
   },
@@ -88,7 +88,7 @@ export const products = [
     price: 1899,
     rating: 4.3,
     reviews: 8211,
-    image: 'https://m.media-amazon.com/images/I/81I-uF0N3hL._SY879._SX._UX._SY._UY_.jpg',
+    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80',
     category: 'Fashion',
     description: 'A modern slim with room to move.'
   },
@@ -98,7 +98,7 @@ export const products = [
     price: 1499,
     rating: 4.1,
     reviews: 3290,
-    image: 'https://m.media-amazon.com/images/I/61y88P1YqdL._SY695_.jpg',
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80',
     category: 'Fashion',
     description: 'Comfortable and stylish sneakers for everyday wear.'
   },
@@ -108,7 +108,7 @@ export const products = [
     price: 799,
     rating: 4.0,
     reviews: 14200,
-    image: 'https://m.media-amazon.com/images/I/71eUwDk8z+L._SY879._SX._UX._SY._UY_.jpg',
+    image: 'https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500&q=80',
     category: 'Fashion',
     description: 'Classic polo t-shirt for casual wear.'
   },
@@ -118,7 +118,7 @@ export const products = [
     price: 1695,
     rating: 4.5,
     reviews: 2100,
-    image: 'https://m.media-amazon.com/images/I/61k2YfR1fQL._SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500&q=80',
     category: 'Fashion',
     description: 'Retro design digital watch with stainless steel band.'
   },
@@ -129,7 +129,7 @@ export const products = [
     price: 8499,
     rating: 4.8,
     reviews: 45678,
-    image: 'https://m.media-amazon.com/images/I/71+8uuDvw4L._AC_SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1626200419109-383818e6922d?w=500&q=80',
     category: 'Home & Kitchen',
     description: 'Now enjoy guilt-free food.'
   },
@@ -139,7 +139,7 @@ export const products = [
     price: 249,
     rating: 4.1,
     reviews: 250000,
-    image: 'https://m.media-amazon.com/images/I/51a+D-I3n7L._SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1585237834574-d2e5352c3c13?w=500&q=80',
     category: 'Home & Kitchen',
     description: 'Effortlessly chop vegetables and fruits.'
   },
@@ -149,7 +149,7 @@ export const products = [
     price: 3699,
     rating: 4.2,
     reviews: 14500,
-    image: 'https://m.media-amazon.com/images/I/61N+V38dK5L._SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1585515320310-259814833e62?w=500&q=80',
     category: 'Home & Kitchen',
     description: 'Powerful 750W motor for tough grinding.'
   },
@@ -160,7 +160,7 @@ export const products = [
     price: 13999,
     rating: 4.8,
     reviews: 32111,
-    image: 'https://m.media-amazon.com/images/I/71Xm1XNf9gL._AC_SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1592496001020-d31bd830651f?w=500&q=80',
     category: 'Amazon Devices',
     description: 'Purpose-built for reading.'
   },
@@ -170,7 +170,7 @@ export const products = [
     price: 3999,
     rating: 4.6,
     reviews: 94000,
-    image: 'https://m.media-amazon.com/images/I/51Wt12x6rZL._SX679_.jpg',
+    image: 'https://images.unsplash.com/photo-1540829016269-e05670f88caa?w=500&q=80',
     category: 'Amazon Devices',
     description: 'Stream in full HD with Alexa Voice Remote.'
   }
