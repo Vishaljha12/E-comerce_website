@@ -9,6 +9,7 @@ import Checkout from './pages/Checkout';
 import Seller from './pages/Seller';
 import CustomerCare from './pages/CustomerCare';
 import GiftCards from './pages/GiftCards';
+import Address from './pages/Address';
 function App() {
   return (
     <Router>
@@ -24,6 +25,7 @@ function App() {
             <Route path="/seller" element={<Seller />} />
             <Route path="/customer-care" element={<CustomerCare />} />
             <Route path="/gift-cards" element={<GiftCards />} />
+            <Route path="/address" element={<Address />} />
           </Routes>
         </main>
       </div>

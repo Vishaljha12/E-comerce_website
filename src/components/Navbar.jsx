@@ -26,13 +26,13 @@ export default function Navbar() {
           <span className="logo-text">My<span className="logo-highlight">Mart</span></span>
         </Link>
 
-        <div className="nav-location">
+        <Link to="/address" className="nav-location" style={{ color: 'inherit', textDecoration: 'none' }}>
           <MapPin size={18} />
           <div className="location-text">
             <span className="loc-small">Deliver to</span>
             <span className="loc-bold">Select your address</span>
           </div>
-        </div>
+        </Link>
 
         <form className="nav-search" onSubmit={handleSearch}>
           <select className="search-select">
