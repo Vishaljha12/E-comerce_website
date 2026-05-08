@@ -79,7 +79,7 @@ export default function Checkout() {
                   <img src={item.image} alt={item.title} />
                   <div className="checkout-item-info">
                     <h4>{item.title}</h4>
-                    <p className="price">${item.price.toFixed(2)}</p>
+                    <p className="price">₹{item.price.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</p>
                     <p>Quantity: {item.quantity}</p>
                   </div>
                 </div>
@@ -102,23 +102,23 @@ export default function Checkout() {
               <h4>Order Summary</h4>
               <div className="summary-row">
                 <span>Items:</span>
-                <span>${subtotal.toFixed(2)}</span>
+                <span>₹{subtotal.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
               </div>
               <div className="summary-row">
                 <span>Shipping & handling:</span>
-                <span>$0.00</span>
+                <span>₹0.00</span>
               </div>
               <div className="summary-row">
                 <span>Total before tax:</span>
-                <span>${subtotal.toFixed(2)}</span>
+                <span>₹{subtotal.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
               </div>
               <div className="summary-row">
                 <span>Estimated tax to be collected:</span>
-                <span>${tax.toFixed(2)}</span>
+                <span>₹{tax.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
               </div>
               <div className="summary-total">
                 <span>Order total:</span>
-                <span>${total.toFixed(2)}</span>
+                <span>₹{total.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
               </div>
             </div>
           </div>

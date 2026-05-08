@@ -56,12 +56,12 @@ export default function Cart() {
                     </div>
                   </div>
                   <div className="item-price">
-                    <strong>${item.price.toFixed(2)}</strong>
+                    <strong>₹{item.price.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</strong>
                   </div>
                 </motion.div>
               ))}
               <div className="cart-subtotal">
-                Subtotal ({cartItemsCount} item{cartItemsCount !== 1 ? 's' : ''}): <strong>${subtotal.toFixed(2)}</strong>
+                Subtotal ({cartItemsCount} item{cartItemsCount !== 1 ? 's' : ''}): <strong>₹{subtotal.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</strong>
               </div>
             </div>
           )}
@@ -74,7 +74,7 @@ export default function Cart() {
                 <span className="text-success">✔</span> Your order qualifies for FREE Shipping.
               </div>
               <div className="checkout-subtotal">
-                Subtotal ({cartItemsCount} item{cartItemsCount !== 1 ? 's' : ''}): <strong>${subtotal.toFixed(2)}</strong>
+                Subtotal ({cartItemsCount} item{cartItemsCount !== 1 ? 's' : ''}): <strong>₹{subtotal.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</strong>
               </div>
               <button 
                 className="btn btn-primary proceed-btn"

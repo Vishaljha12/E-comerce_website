@@ -38,8 +38,8 @@ export default function ProductCard({ product }) {
         </div>
         
         <div className="product-price">
-          <span className="currency">$</span>
-          <span className="whole">{Math.floor(product.price)}</span>
+          <span className="currency">₹</span>
+          <span className="whole">{Math.floor(product.price).toLocaleString('en-IN')}</span>
           <span className="fraction">{(product.price % 1).toFixed(2).substring(2)}</span>
         </div>
         

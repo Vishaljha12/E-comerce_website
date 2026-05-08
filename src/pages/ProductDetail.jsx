@@ -57,8 +57,8 @@ export default function ProductDetail() {
         </div>
         
         <div className="product-price-large">
-          <span className="currency">$</span>
-          <span className="whole">{Math.floor(product.price)}</span>
+          <span className="currency">₹</span>
+          <span className="whole">{Math.floor(product.price).toLocaleString('en-IN')}</span>
           <span className="fraction">{(product.price % 1).toFixed(2).substring(2)}</span>
         </div>
 
@@ -86,7 +86,7 @@ export default function ProductDetail() {
       <div className="product-action-sidebar">
         <div className="card action-card">
           <div className="price-display">
-            <h2>${product.price.toFixed(2)}</h2>
+            <h2>₹{product.price.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</h2>
           </div>
           <div className="delivery-info">
             <p className="text-success">In Stock.</p>

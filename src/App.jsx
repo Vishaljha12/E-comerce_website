@@ -6,7 +6,9 @@ import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import Login from './pages/Login';
 import Checkout from './pages/Checkout';
-
+import Seller from './pages/seller';
+import CustomerCare from './pages/CustomerCare';
+import GiftCards from './pages/GiftCards';
 function App() {
   return (
     <Router>
@@ -19,6 +21,9 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<Login />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/seller" element={<Seller />} />
+            <Route path="/customer-care" element={<CustomerCare />} />
+            <Route path="/gift-cards" element={<GiftCards />} />
           </Routes>
         </main>
       </div>

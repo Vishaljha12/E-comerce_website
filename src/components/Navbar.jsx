@@ -88,10 +88,10 @@ export default function Navbar() {
         </div>
         <div className="nav-links">
           <Link to="/">Today's Deals</Link>
-          <Link to="/">Customer Service</Link>
+          <Link to="/customer-care">Customer Service</Link>
           <Link to="/">Registry</Link>
-          <Link to="/">Gift Cards</Link>
-          <Link to="/">Sell</Link>
+          <Link to="/gift-cards">Gift Cards</Link>
+          <Link to="/seller">Sell</Link>
         </div>
       </div>
     </header>
