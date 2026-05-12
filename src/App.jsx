@@ -13,9 +13,13 @@ import Address from './pages/Address';
 function App() {
   return (
     <Router>
+
       <div className="page-wrapper">
+      
         <Navbar />
+      
         <main className="main-content">
+      
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/product/:id" element={<ProductDetail />} />
