@@ -10,6 +10,7 @@ export default function ProductCard({ product }) {
   const handleAddToCart = (e) => {
     e.preventDefault();
     addToCart(product);
+  
   };
 
   return (
