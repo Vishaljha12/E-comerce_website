@@ -81,7 +81,11 @@ export default function GiftCards() {
                   <input 
                     type="number" 
                     value={amount} 
-                    onChange={(e) => setAmount(Number(e.target.value))} 
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      if (val.length > 7) return;
+                      setAmount(Number(val));
+                    }} 
                     min="100" 
                     max="50000"
                   />
