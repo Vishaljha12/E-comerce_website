@@ -242,3 +242,39 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .nav-top {
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+  }
+  .nav-search {
+    order: 3;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .nav-location {
+    display: none;
+  }
+  .nav-bottom {
+    padding: 5px 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .action-small {
+    display: none;
+  }
+  .action-bold {
+    font-size: 0.75rem;
+  }
+  .cart-text {
+    display: none;
+  }
+}

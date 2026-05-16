@@ -209,3 +209,26 @@
   border-color: #9ca3af;
   background: #f9fafb;
 }
+
+@media (max-width: 600px) {
+  .cc-hero {
+    padding: 40px 15px;
+  }
+  .cc-hero h1 {
+    font-size: 2rem;
+  }
+  .cc-search-box {
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 10px;
+  }
+  .cc-topics-section {
+    padding: 20px;
+  }
+  .topics-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-options {
+    grid-template-columns: 1fr;
+  }
+}

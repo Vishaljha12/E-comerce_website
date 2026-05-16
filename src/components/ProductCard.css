@@ -98,3 +98,24 @@
   width: 100%;
   border-radius: 20px;
 }
+
+@media (max-width: 480px) {
+  .product-card {
+    padding: 10px;
+  }
+  .product-image-link {
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  .product-title {
+    font-size: 0.9rem;
+    -webkit-line-clamp: 2;
+  }
+  .whole {
+    font-size: 1.25rem;
+  }
+  .add-to-cart-btn {
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+}

@@ -139,3 +139,28 @@
   font-size: 1rem;
   padding: 12px;
 }
+
+@media (max-width: 900px) {
+  .cart-container {
+    flex-direction: column;
+  }
+  .cart-sidebar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cart-item {
+    flex-direction: column;
+  }
+  .item-image-wrapper {
+    width: 100%;
+  }
+  .item-price {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .cart-header {
+    display: none;
+  }
+}

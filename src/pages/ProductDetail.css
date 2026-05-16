@@ -177,5 +177,22 @@
 @media (max-width: 768px) {
   .product-detail-container {
     grid-template-columns: 1fr;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+  .product-title-large {
+    font-size: 1.25rem;
+  }
+  .product-price-large .whole {
+    font-size: 2rem;
+  }
+  .main-image {
+    max-height: 300px;
+  }
+  .product-features {
+    flex-wrap: wrap;
+  }
+  .feature {
+    min-width: 45%;
   }
 }

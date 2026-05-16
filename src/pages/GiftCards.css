@@ -349,4 +349,18 @@
   .gc-content-grid {
     padding: 20px;
   }
+
+  .gc-amount-btn {
+    padding: 10px 15px;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .gc-custom-amount {
+    width: 100%;
+  }
+
+  .gc-hero h1 {
+    font-size: 2rem;
+  }
 }

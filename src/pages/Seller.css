@@ -389,8 +389,23 @@ textarea { resize: vertical; min-height: 80px; }
   .sp-hero-img { display: none; }
   .sp-stepper { gap: 0; }
   .sp-step-label { display: none; }
+  .sp-header-nav a:not(.sp-nav-login) { display: none; }
 }
+
 @media (max-width: 640px) {
-  .sp-form-body, .sp-form-footer, .sp-form-header { padding: 1.5rem; }
+  .sp-header-inner { padding: 0 1rem; }
+  .sp-hero { padding: 4rem 1rem 3rem; }
+  .sp-perks { padding: 3rem 1rem; }
+  .sp-form-section { padding: 3rem 1rem; }
+  .sp-faq { padding: 3rem 1rem; }
+  .sp-footer { padding: 2rem 1rem; }
+  .sp-form-body, .sp-form-footer, .sp-form-header, .sp-stepper { padding: 1.5rem 1rem; }
   .sp-hero-stats { gap: 1.25rem; flex-wrap: wrap; }
+  .sp-review-row { flex-direction: column; gap: 4px; padding: 10px; }
+  .sp-review-key { min-width: auto; }
+  .sp-btn-primary, .sp-btn-secondary, .sp-btn-outline { padding: 10px 16px; font-size: 0.875rem; }
+  .sp-btn-submit { padding: 12px 20px; font-size: 0.9rem; }
+  .sp-success { padding: 2rem 1.5rem; margin: 4rem 1rem; }
+  .sp-success-steps { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .sp-success-step { flex-direction: row; }
 }
